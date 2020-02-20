@@ -7,3 +7,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 enable_testing()
 add_subdirectory("chapter03 Sharing data between threads")
+add_subdirectory("chapter04 Synchronizing concurrent operations")

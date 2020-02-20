@@ -1,0 +1,3 @@
+add_executable(01_producer_consumer_with_condition_variable 01_producer_consumer_with_condition_variable.cpp)
+add_test(NAME 01_producer_consumer_with_condition_variable
+    COMMAND $<TARGET_FILE:01_producer_consumer_with_condition_variable>)
